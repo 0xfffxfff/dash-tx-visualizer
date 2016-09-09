@@ -171,7 +171,7 @@ TradeSocket.close = function() {
 	StatusBox.closed("mtgox");
 };
 
-export {
-	TradeSocket: TradeSocket,
-	TransactionSocket: TransactionSocket
+export default {
+	TradeSocket,
+	TransactionSocket
 }
